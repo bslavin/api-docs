@@ -14,6 +14,15 @@ Sending your first template
 Sending a template  - 
 
 
+HTTP Basic Authentication
+
+Credentials to access this API are managed by the Provisioning API; refer to the “Create Application Credentials” section of this document for instruction. 
+
+Only Application Credentials of type “password” can be used to authenticate with the Mail API.
+
+
+Examples of using this authentication with cURL:
+
 ```
 curl -u APP123456:A_Very_Strong_Password \
     <rest of command>
@@ -23,11 +32,14 @@ curl -H 'Authorization: Basic QVBQMTIzNDU2OkFfVmVyeV9TdHJvbmdfUGFzc3dvcmQ=' \
 ```
 
 
+
+
+
 API endpoint:
-https://mail-api.ser.emailrouter-development.com/
+[Links](https://mail-api.ser.emailrouter-development.com/)
 
 API documentation:
-https://mail-api-docs.ser.emailrouter-development.com/
+[Links](https://mail-api-docs.ser.emailrouter-development.com/)
 
 OpenAPI specification:
-https://mail-api-docs.ser.emailrouter-development.com/spec.json
+[Links](https://mail-api-docs.ser.emailrouter-development.com/spec.json)
