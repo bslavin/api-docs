@@ -7,11 +7,11 @@ description: How to get started with Email API
 
 The Email API 
 
-Basic Authentication
-Sending your first email
-Sending an email with multiple recipients
-Sending your first template
-Sending a template  - 
+- Basic Authentication
+- Sending your first email
+- Sending an email with multiple recipients
+- Sending your first template
+- Sending a template 
 
 
 HTTP Basic Authentication

@@ -1,18 +1,45 @@
 ---
-title: Get started with Markdoc
-description: How to get started with Markdoc
+title: Get started with Email API
+description: How to get started with Email API
 ---
 
-# Markdoc
+# Get started with Email API
 
-This website is a lightweight boilerplate to spin up a documentation website with Markdoc.
+The Email API 
 
-## Quick start
+- Basic Authentication
+- Sending your first email
+- Sending an email with multiple recipients
+- Sending your first template
+- Sending a template 
 
-If you want to get started right away with this boilerplate, either clone the [GitHub repository](https://github.com/markdoc/next.js-starter) or deploy a version of this site to Vercel by clicking the button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/markdoc/next.js-starter)
+HTTP Basic Authentication
 
-## Get started from scratch
+Credentials to access this API are managed by the Provisioning API; refer to the “Create Application Credentials” section of this document for instruction. 
 
-If you'd prefer to start from scratch, feel free to check out the [official repository](https://github.com/markdoc/markdoc) and [documentation site](https://markdoc.io/docs/getting-started).
+Only Application Credentials of type “password” can be used to authenticate with the Mail API.
+
+
+Examples of using this authentication with cURL:
+
+```
+curl -u APP123456:A_Very_Strong_Password \
+    <rest of command>
+
+curl -H 'Authorization: Basic QVBQMTIzNDU2OkFfVmVyeV9TdHJvbmdfUGFzc3dvcmQ=' \
+    <rest of command>
+```
+
+
+
+
+
+API endpoint:
+[Links](https://mail-api.ser.emailrouter-development.com/)
+
+API documentation:
+[Links](https://mail-api-docs.ser.emailrouter-development.com/)
+
+OpenAPI specification:
+[Links](https://mail-api-docs.ser.emailrouter-development.com/spec.json)
