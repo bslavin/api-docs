@@ -23,12 +23,15 @@ Only Application Credentials of type “password” can be used to authenticate 
 
 Examples of using this authentication with cURL:
 
-`curl -u APP123456:A_Very_Strong_Password \
-    <rest of command>`
+````
+curl -u APP123456:A_Very_Strong_Password \
+    <rest of command>
+````
 
-`curl -H 'Authorization: Basic QVBQMTIzNDU2OkFfVmVyeV9TdHJvbmdfUGFzc3dvcmQ=' \
-    <rest of command>`
-
+```
+curl -H 'Authorization: Basic QVBQMTIzNDU2OkFfVmVyeV9TdHJvbmdfUGFzc3dvcmQ=' \
+    <rest of command>
+```
 
 
 
